@@ -5,7 +5,7 @@ excerpt: "An automated multirobot painting line that coordinates industrial mani
 collection: portfolio
 ---
 
-This ongoing project focuses on the development of a **multirobot painting control system with real-time monitoring** for automated industrial production. **The goal of the system** is to **increase process efficiency**, **ensure uniform paint quality**, and **remove human operators from hazardous working environments** by using coordinated robotic manipulators and intelligent control logic.
+This **ongoing** project focuses on the development of a **multirobot painting control system with real-time monitoring** for automated industrial production. **The goal of the system** is to **increase process efficiency**, **ensure uniform paint quality**, and **remove human operators from hazardous working environments** by using coordinated robotic manipulators and intelligent control logic.
 
 The system integrates a **conveyor line**, **RoArm M2S manipulators**, and an **industrial KUKA robot**, all controlled through a PLC-based architecture with real-time feedback. The technological sequence includes part detection, synchronized painting, drying, and automated pick-and-place operations. Real-time monitoring allows stable interaction between all subsystems and ensures safe and repeatable operation.
 
