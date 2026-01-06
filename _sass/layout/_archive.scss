@@ -243,3 +243,15 @@
     }
   }
 }
+
+/* === Custom: keep text width equal to image === */
+
+.archive__item-teaser {
+  max-width: 500px;
+}
+
+.archive__item-excerpt {
+  max-width: 500px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
