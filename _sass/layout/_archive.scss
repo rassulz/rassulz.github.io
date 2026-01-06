@@ -244,14 +244,14 @@
   }
 }
 
-/* === Custom: keep text width equal to image === */
+/* === Fix: excerpt width equals teaser width === */
 
-.archive__item-teaser {
-  max-width: 500px;
+.archive__item {
+  max-width: 500px;   // если у тебя картинка 500×300
 }
 
 .archive__item-excerpt {
-  max-width: 500px;
+  max-width: 100%;
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
