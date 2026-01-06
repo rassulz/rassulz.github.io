@@ -245,12 +245,14 @@
 }
 /* === Fix: excerpt width equals teaser width === */
 
-.archive__item {
-  max-width: 500px;   // если у тебя картинка 500×300
+/* === Fix: keep text within image width === */
+
+.archive__item-teaser {
+  max-width: 500px;
 }
 
 .archive__item-excerpt {
-  max-width: 100%;
+  max-width: 500px;
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
