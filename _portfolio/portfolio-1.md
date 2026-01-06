@@ -1,29 +1,26 @@
 ---
-title: "Autonomous Elevator Operation with Unitree Go2 Robot Dog"
-excerpt: "Developed a fully autonomous robotic system using Unitree Go2, ROS2, and computer vision to detect elevator panels, dock, press buttons, and operate elevators. <br/> ![elevator_dog_wme](https://github.com/user-attachments/assets/553a5174-18b3-4448-ac30-46820a85627a)
-
+title: "Development of multirobot painting control system with realtime monitoring"
+excerpt: "An automated multirobot painting line that coordinates industrial manipulators, conveyor motion, and process monitoring in real time to improve efficiency, coating quality, and operator safety. <br/> ![painting_control_system](https://raw.githubusercontent.com/rassulz/rassulz.github.io/customize/images/diploma_picture_laboratory.jpg)
 "
 collection: portfolio
 ---
 
-This academic research project, currently under review for publication in **IEEE**, focused on enabling a **Unitree Go2 quadruped robot** to autonomously operate elevators. The system was designed to expand the mobility of legged robots in real-world indoor environments, where vertical navigation is essential.
+This ongoing project focuses on the development of a **multirobot painting control system with real-time monitoring** for automated industrial production. **The goal of the system** is to **increase process efficiency**, **ensure uniform paint quality**, and **remove human operators from hazardous working environments** by using coordinated robotic manipulators and intelligent control logic.
 
-The robot was equipped with **ROS2**, the **Unitree SDK**, and **computer vision techniques** to achieve perception and control. Using **AprilTag detection**, the robot could accurately identify elevator panels, perform precise docking maneuvers, and press the correct buttons autonomously.  
+The system integrates a **conveyor line**, **RoArm M2S manipulators**, and an **industrial KUKA robot**, all controlled through a PLC-based architecture with real-time feedback. The technological sequence includes part detection, synchronized painting, drying, and automated pick-and-place operations. Real-time monitoring allows stable interaction between all subsystems and ensures safe and repeatable operation.
 
-Highlights: <br/><br/>
-- **Autonomous Elevator Operation**: Successfully integrated perception, planning, and actuation to allow the robot to detect panels, dock, and press buttons without human intervention. <br/>
-- **Computer Vision Integration**: Used AprilTag technology to ensure robust detection of elevator panels in varied lighting and angle conditions. <br/>
-- **Seamless Control**: Combined ROS2 middleware, the Unitree SDK, and custom navigation algorithms to achieve reliable performance. <br/>
-- **Research Contribution**: Project submitted to IEEE, contributing to advancements in mobile robotics and service robot autonomy. <br/>
+**Highlights:** <br/>
+- **Multirobot Coordination:** Synchronized control of multiple manipulators for automated painting tasks. <br/>
+- **Real-Time Monitoring:** Continuous supervision of conveyor motion, robot states, and process timing. <br/>
+- **Industrial Control & HMI:** PLC-based logic with WinCC HMI for automatic, manual, and diagnostic modes. <br/>
+- **Safety-Oriented Design:** Removal of operators from harmful painting environments and chemical exposure.
 
-<br/>
+### Program realization:
 
-### Robot in Action:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XWEpMyBKOvU?si=ZgFU1b3FJb6-MhXv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed7L7fTCguy7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
 <br/><br/>
 
-This project demonstrates the potential of **quadruped robots in human-centered environments**, highlighting how advanced perception and autonomy can extend their usability to multi-floor navigation.  
+This project demonstrates the potential of **multirobot painting systems** in industrial environments, showing how **coordinated robotic manipulators** and **real-time control** can improve efficiency, coating quality, and operational safety.
