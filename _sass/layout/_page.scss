@@ -16,6 +16,44 @@
   }
 }
 
+/*
+  Helper: keep text contained with an image.
+  Usage in content (HTML/Markdown):
+  <div class="img-text-wrap">
+    <img src="/images/500x300.png" alt="...">
+    <div class="img-text-wrap__text">Your paragraph text that should be constrained to the image width.</div>
+  </div>
+
+  This creates a two-column flex row where the image defines the visual width
+  and the text stays aligned and will not flow outside the image area.
+*/
+.img-text-wrap {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+
+  img {
+    flex: 0 0 auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    border-radius: $border-radius;
+  }
+
+  &__text {
+    flex: 1 1 auto;
+    /* ensure long words wrap and text doesn't overflow */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* make it stack on small screens */
+  @include breakpoint($small) {
+    flex-direction: column;
+  }
+}
+
 .page {
   @include breakpoint($large) {
     @include span(10 of 12 last);
