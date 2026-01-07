@@ -1,6 +1,6 @@
 ---
 title: "ESP32 Wi-Fi Car Control with Browser Joystick Interface"
-excerpt: "An ESP32-based Wi-Fi car control system that allows real-time driving from a web browser using a joystick-style interface. Designed as an educational and practical robotics project for students and competitions. <br/> ![painting_control_system](https://raw.githubusercontent.com/rassulz/rassulz.github.io/customize/images/pit_fest_2024_car_project.jpg)
+excerpt: "An ESP32-based Wi-Fi car control system that allows real-time driving from a web browser using a joystick-style interface. Designed as an educational and practical robotics project for students and competitions. <br/> ![pid_fest_2024_car_project](https://raw.githubusercontent.com/rassulz/rassulz.github.io/customize/images/it_fest_2024_car_project.jpg)
 "
 collection: portfolio
 ---
