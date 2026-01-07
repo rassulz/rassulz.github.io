@@ -52,7 +52,7 @@ Open certificate
 </a>
 
 
-⚡Won **2nd place** for the **best course project** among **40+ teams** from the entire 4th-year **Automation and Control** cohort at our university. <a href="https://raw.githubusercontent.com/rassulz/rassulz.github.io/customize/files/certificate_course_project_2nd.pdf"
+⚡Won **2nd place** for the **best course project** among **40+ teams** from the entire 4th-year **Automation and Control** cohort at our university. <a href="https://rassulz.github.io/files/certificate_course_project_2nd.pdf"
 target="_blank" rel="noopener noreferrer">
 Open certificate
 </a>
