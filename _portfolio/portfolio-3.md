@@ -17,11 +17,11 @@ Special attention was given to **HMI development using LS Electric (Korea) XP Bu
 - **Electrical Assembly:** Wiring of control cabinets, relays, contactors, and motor control circuits. <br/>
 - **Industrial Practice:** Real-world experience with automation systems in automotive manufacturing.
 
+<a href="https://github.com/rassulz/hyundai_internship_project" target="_blank" rel="noopener noreferrer">
+Project repository (GitHub)
+</a>
+
 ### Program realization:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G5RJpxU_5dc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-<a href="https://github.com/rassulz/hyundai_internship_project" target="_blank" rel="noopener noreferrer">
-Project repository (GitHub)
-</a>

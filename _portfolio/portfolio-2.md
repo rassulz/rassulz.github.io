@@ -13,6 +13,10 @@ Highlights: <br/>
 - **Zone-Based Analysis:** Defined virtual zones within the camera frame to analyze human presence. <br/>
 - **Practical Applications:** Applicable to security systems, smart buildings, industrial safety monitoring, and human–machine interaction scenarios. 
 
+<a href="https://github.com/rassulz/Intelligent-Human-Zone-Tracking-using-Computer-Vision" target="_blank" rel="noopener noreferrer">
+Project repository (GitHub)
+</a>
+
 ### Program realization:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-YawH-9Wrs8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

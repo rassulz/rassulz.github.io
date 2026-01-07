@@ -15,6 +15,10 @@ The system integrates a **conveyor line**, **RoArm M2S manipulators**, and an **
 - **Industrial Control & HMI:** PLC-based logic with WinCC HMI for automatic, manual, and diagnostic modes. <br/>
 - **Safety-Oriented Design:** Removal of operators from harmful painting environments and chemical exposure.
 
+<a href="https://github.com/rassulz/multirobot_painting_control_system" target="_blank" rel="noopener noreferrer">
+Project repository (GitHub)
+</a>
+
 ### Program realization:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7L7fTCguy7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
