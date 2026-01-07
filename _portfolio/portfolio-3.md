@@ -1,6 +1,6 @@
 ---
 title: "Industrial Automation Internship Project at Hyundai Trans Kazakhstan"
-excerpt: "A hands-on industrial automation project developed during an internship at Hyundai Trans Kazakhstan, focusing on PLC-based conveyor control, HMI development, and practical implementation of electrical and automation systems in automotive production. <br/> ![human_zone_traking](https://raw.githubusercontent.com/rassulz/rassulz.github.io/customize/images/com_vision_port_3.jpg)"
+excerpt: "A hands-on industrial automation project developed during an internship at Hyundai Trans Kazakhstan, focusing on PLC-based conveyor control, HMI development, and practical implementation of electrical and automation systems in automotive production. <br/> ![human_zone_traking](https://raw.githubusercontent.com/rassulz/rassulz.github.io/customize/images/hyundai_project_intern.jpg)"
 collection: portfolio
 ---
 
