@@ -46,13 +46,13 @@ redirect_from:
 
 # 🎉 Activities and Achievements
 
-🤝 Mentor for students and served as a **judge** in the **Robo-Football Hackathon** during **ITFEST 2024** and **ITFEST 2025**. <a href="https://raw.githubusercontent.com/rassulz/rassulz.github.io/main/files/certificate_it_fest_2024.pdf"
+🤝 Mentor for students and served as a **judge** in the **Robo-Football Hackathon** during **ITFEST 2024** and **ITFEST 2025**. <a href="https://raw.githubusercontent.com/rassulz/rassulz.github.io/customize/files/certificate_it_fest_2024.pdf"
 target="_blank" rel="noopener noreferrer">
 Open certificate
 </a>
 
 
-⚡**2nd place** for the **best course project** among **40+ teams** from the entire 4th-year **Automation and Control** cohort at our university. <a href="https://raw.githubusercontent.com/rassulz/rassulz.github.io/main/files/certificate_course_project_2nd.pdf"
+⚡Won **2nd place** for the **best course project** among **40+ teams** from the entire 4th-year **Automation and Control** cohort at our university. <a href="https://raw.githubusercontent.com/rassulz/rassulz.github.io/customize/files/certificate_course_project_2nd.pdf"
 target="_blank" rel="noopener noreferrer">
 Open certificate
 </a>
