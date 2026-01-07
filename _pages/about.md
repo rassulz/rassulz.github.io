@@ -46,7 +46,7 @@ redirect_from:
 
 # 🎉 Activities and Achievements
 
-🤝 Mentor for students and served as a **judge** in the **Robo-Football Hackathon** during **ITFEST 2024** and **ITFEST 2025**. <a href="https://raw.githubusercontent.com/rassulz/rassulz.github.io/customize/files/certificate_it_fest_2024.pdf"
+🤝 Mentor for students and served as a **judge** in the **Robo-Football Hackathon** during **ITFEST 2024** and **ITFEST 2025**. <a href="https://rassulz.github.io/files/certificate_it_fest_2024.pdf"
 target="_blank" rel="noopener noreferrer">
 Open certificate
 </a>
