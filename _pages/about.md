@@ -20,7 +20,7 @@ redirect_from:
 
 # 🏆 Selected Experience
 
-### 🔬 Robotics Research Assistant
+### 🔬 Robotics Assistant
 
 * Contributing to the development of **laboratory practice manuals** for **Isaac Sim**.
 * Worked on an **Inverted Pendulum on a Moving Platform** project, focusing on control algorithms and system stability.
