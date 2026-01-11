@@ -57,5 +57,5 @@ target="_blank" rel="noopener noreferrer">
 Open certificate
 </a>
 
-
+◼**Open Day Robotics KBTU:** Guided and advised prospective students on the Robotics and Automation program
 <br/>
