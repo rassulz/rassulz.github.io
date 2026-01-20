@@ -57,7 +57,7 @@ target="_blank" rel="noopener noreferrer">
 Open certificate
 </a>
 
-🟢**Open Day Robotics KBTU:** Guided and advised prospective students on the Robotics and Automation program
+🟢**Open Day Robotics KBTU:** **Guided** and **advised prospective students** on the Robotics and Automation program
 <br/>
 
-🟢**EDUFEST 2026:** I presented student training projects from KBTU, including hands-on demonstrations of robotic manipulators, drones, and mobile robots, highlighting practical robotics education and project-based learning.
+🟢**EDUFEST 2026:** I presented **student training projects** from **KBTU**, including **hands-on demonstrations** of robotic manipulators, drones, and mobile robots, highlighting practical robotics education and project-based learning.
