@@ -14,7 +14,7 @@ redirect_from:
 🚀 Currently, I am involved in ongoing research:  
 **“Development of Multirobot Painting Control System with Real-Time Monitoring.”**
 
-🟩 Additionally, I am expanding my expertise in **reinforcement learning using NVIDIA frameworks** and actively working on the development of a **custom mobile robotics platform**.
+🟩 Additionally, I am expanding my expertise in **reinforcement learning using NVIDIA frameworks** and actively working on the development of **reinforcement learning for manipulators**.
 
 <br/>
 
@@ -24,7 +24,7 @@ redirect_from:
 
 * Contributing to the development of **laboratory practice manuals** for **Isaac Sim**.
 * Worked on an **Inverted Pendulum on a Moving Platform** project, focusing on control algorithms and system stability.
-* **Computer Vision** models training 
+* Inregration of **Computer Vision** models into laboratory projects 
 
 ---
 
@@ -44,6 +44,9 @@ redirect_from:
 
 <br/>
 
+### 📜 Research Paper Collaborator
+**Acceptance on conference** The 20th IEEE International Conference on Control & Automation (IEEE ICCA 2026) on research project **Development of multirobot painting control system with realtime monitoring**. Highlights integration of  low-level coordination PLC and high-level MATLAB/SYMULINK.
+
 # 🎉 Activities and Achievements
 
 🤝 Mentor for students and served as a **judge** in the **Robo-Football Hackathon** during **ITFEST 2024** and **ITFEST 2025**. <a href="https://rassulz.github.io/files/certificate_it_fest_2024.pdf"
@@ -61,3 +64,7 @@ Open certificate
 <br/>
 
 🟢**EDUFEST 2026:** I presented **student training projects** from **KBTU**, including **hands-on demonstrations** of robotic manipulators, drones, and mobile robots, highlighting practical robotics education and project-based learning.
+
+🟢Certificate of recognition **L'Oreal Brandstorm** related to **Industry 4.0** and **smart technologies** in the manufacture.  <a href="https://rassulz.github.io/files/Rassul_Zeinulla_loreal.pdf"
+target="_blank" rel="noopener noreferrer">
+Open certificate
