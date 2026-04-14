@@ -47,6 +47,8 @@ redirect_from:
 ### 📜 Research Paper Collaborator
 **Acceptance on conference** The 20th IEEE International Conference on Control & Automation (IEEE ICCA 2026) on research project **Development of multirobot painting control system with realtime monitoring**. Highlights integration of  low-level coordination PLC and high-level MATLAB/SYMULINK.
 
+<br/>
+
 # 🎉 Activities and Achievements
 
 🤝 Mentor for students and served as a **judge** in the **Robo-Football Hackathon** during **ITFEST 2024** and **ITFEST 2025**. <a href="https://rassulz.github.io/files/certificate_it_fest_2024.pdf"
