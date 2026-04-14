@@ -20,7 +20,7 @@ redirect_from:
 
 # 🏆 Selected Experience
 
-### 🔬 Robotics Assistant
+### 🔬 Robotics Assistant - **Kazakh-British Technical University**
 
 * Contributing to the development of **laboratory practice manuals** for **Isaac Sim**.
 * Worked on an **Inverted Pendulum on a Moving Platform** project, focusing on control algorithms and system stability.
