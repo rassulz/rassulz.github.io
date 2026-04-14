@@ -1,22 +1,27 @@
 ---
-title: "Intelligent Human-Zone Tracking using Computer Vision"
-excerpt: "A real-time safety monitoring system for hazardous industrial zones that detects people, verifies safety-vest compliance, and tracks dwell-time in danger areas—raising instant alerts when safety rules are violated. <br/> ![human_zone_traking](https://raw.githubusercontent.com/rassulz/rassulz.github.io/customize/images/com_vision_port_3.jpg)"
+title: "Machine Learning Integration with PLC for Industrial Process Control"
+excerpt: "An industrial automation project that integrates machine learning models with PLC systems using OPC UA, enabling data-driven quality prediction and intelligent process monitoring in an industrial environment. <br/> ![pid_fest_2024_car_project](https://raw.githubusercontent.com/rassulz/rassulz.github.io/customize/images/PLC_ML_picture.png)
+"
 collection: portfolio
 ---
 
-This project focuses on the development of an **intelligent human zone tracking system using computer vision techniques**. **The goal of the system** is to **detect human presence**, count **working time**, and analyze **interactions** within predefined spatial zones, which is highly relevant for applications in smart environments, safety monitoring, and automation systems.
+This project focuses on the integration of **machine learning techniques with industrial PLC systems** for intelligent process monitoring and quality prediction. The main objective is to demonstrate how data-driven models can be combined with classical automation architectures to support better decision-making in industrial environments.
 
-The system processes **recorded video streams** to identify humans and determine whether they working, or remain within specific regions of interest. By combining image processing, **object detection**, and **face identification**, the project demonstrates a practical approach to vision-based situational awareness.
+The system uses **Python-based machine learning models** trained on industrial process data and connects them to a **PLC via OPC UA communication**. Process variables are collected from the PLC, processed by the ML model, and then used to analyze product quality and system behavior. The project is based on a real industrial dataset related to process quality prediction and shows how analytics can support automation systems.
 
-Highlights: <br/>
-- **Human Detection and Tracking:** Implemented robust human detection and tracking using computer vision algorithms to monitor movement across frames. 
-- **Zone-Based Analysis:** Defined virtual zones within the camera frame to analyze human presence. <br/>
-- **Practical Applications:** Applicable to security systems, smart buildings, industrial safety monitoring, and human–machine interaction scenarios. 
+This work highlights the interaction between **industrial control systems and data science**, making it relevant for smart manufacturing and Industry 4.0 applications.
 
-<a href="https://github.com/rassulz/Intelligent-Human-Zone-Tracking-using-Computer-Vision" target="_blank" rel="noopener noreferrer">
+**Highlights:** <br/>
+- **PLC–ML Integration:** Communication between PLC and Python using OPC UA. <br/>
+- **Machine Learning Models:** Training and evaluation of ML models for quality prediction. <br/>
+- **Industrial Dataset:** Use of real process data for realistic analysis. <br/>
+- **Industry 4.0 Concept:** Combination of automation and data analytics for smart factories.
+
+**Project repository:**  
+<a href="https://github.com/almat777/ML_PLC_industry" target="_blank" rel="noopener noreferrer">
 Project repository (GitHub)
 </a>
 
 ### Program realization:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-YawH-9Wrs8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U-6GGcndfKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
