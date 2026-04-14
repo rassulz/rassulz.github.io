@@ -42,7 +42,7 @@ redirect_from:
 
 * **Electrical Assembly:** Assembled and wired a complete **control cabinet** with circuit breakers, relays, power supplies, timers, and signaling devices, ensuring safe, reliable, and compliant system operation.
 
-<br/>
+---
 
 ### 📜 Research Paper Collaborator
 **Acceptance on conference** The 20th IEEE International Conference on Control & Automation (IEEE ICCA 2026) on research project **Development of multirobot painting control system with realtime monitoring**. Highlights integration of  low-level coordination PLC and high-level MATLAB/SYMULINK.
