@@ -24,7 +24,16 @@ redirect_from:
 
 * Contributing to the development of **laboratory practice manuals** for **Isaac Sim**.
 * Worked on an **Inverted Pendulum on a Moving Platform** project, focusing on control algorithms and system stability.
-* Inregration of **Computer Vision** models into laboratory projects 
+* Mentor and organizer of **ITFEST 2024-2025**.
+* Inregration of **Computer Vision** models into laboratory projects.
+
+---
+
+### 🤖 Robotics Intern (short term) - **Arcobo**, Almaty, Kazakhstan
+
+* Deployed and operated a **Kawasaki industrial robot**.
+* Programmed and executed motion tasks on the **Astorino Kawasaki** platform, including **trajectory following** and **pick-and-place operations**.
+* Utilized **SimBox HIL simulation** for safe testing, validation, and rapid iteration of robotic workflows.
 
 ---
 
