@@ -20,15 +20,6 @@ redirect_from:
 
 # 🏆 Selected Experience
 
-### 🔬 Robotics Assistant - **Kazakh-British Technical University**
-
-* Contributing to the development of **laboratory practice manuals** for **Isaac Sim**.
-* Worked on an **Inverted Pendulum on a Moving Platform** project, focusing on control algorithms and system stability.
-* Mentor and organizer of **ITFEST 2024-2025**.
-* Inregration of **Computer Vision** models into laboratory projects.
-
----
-
 ### 🤖 Robotics Intern (short term) - **Arcobo**, Almaty, Kazakhstan
 
 * Deployed and operated a **Kawasaki industrial robot**.
@@ -53,6 +44,22 @@ redirect_from:
 
 ---
 
+### 🔬 Robotics Assistant - **Kazakh-British Technical University**
+
+* Contributing to the development of **laboratory practice manuals** for **Isaac Sim**.
+* Worked on an **Inverted Pendulum on a Moving Platform** project, focusing on control algorithms and system stability.
+* Mentor and organizer of **ITFEST 2024-2025**.
+* Integration of **Computer Vision** models into laboratory projects.
+
+---
+
+### 🧠 Machine Learning Summer Program - **Yessenov Data Lab**
+
+* Built **Image Extractor Agent**, an offline **CLIP-based semantic image search system**.
+* Built a local **Russian-to-English translator** using **MarianMT** and **Streamlit**.
+
+---
+
 ### 📜 Research Paper Collaborator
 **Acceptance on conference** The 20th IEEE International Conference on Control & Automation (IEEE ICCA 2026) on research project **Development of multirobot painting control system with realtime monitoring**. Highlights integration of  low-level coordination PLC and high-level MATLAB/SYMULINK.
 
@@ -62,7 +69,12 @@ redirect_from:
 
 🤝 Mentor for students and served as a **judge** in the **Robo-Football Hackathon** during **ITFEST 2024** and **ITFEST 2025**. <a href="https://rassulz.github.io/files/certificate_it_fest_2024.pdf"
 target="_blank" rel="noopener noreferrer">
-Open certificate
+Open 2024 certificate
+</a>
+ |
+<a href="https://rassulz.github.io/files/certificate_itfest_2025.pdf"
+target="_blank" rel="noopener noreferrer">
+Open 2025 certificate
 </a>
 
 

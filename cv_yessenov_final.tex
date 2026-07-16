@@ -1,0 +1,327 @@
+\documentclass[10pt, a4paper]{article}
+
+% Packages
+\usepackage[
+    ignoreheadfoot,
+    top=2cm,
+    bottom=2cm,
+    left=2cm,
+    right=2cm,
+    footskip=1cm
+]{geometry}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage{etoolbox}
+\usepackage{fontawesome5}
+\usepackage{amsmath}
+\usepackage[
+    pdftitle={Rassul Zeinulla's CV},
+    pdfauthor={Rassul Zeinulla},
+    pdfcreator={LaTeX with RenderCV},
+    colorlinks=true,
+    urlcolor=black
+]{hyperref}
+\usepackage{calc}
+\usepackage{bookmark}
+\usepackage{changepage}
+\usepackage{paracol}
+\usepackage{needspace}
+\usepackage{iftex}
+
+% Make the generated PDF machine-readable and ATS-friendly.
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+\usepackage{charter}
+
+% Global settings
+\raggedright
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\columnsep}{0.15cm}
+\pagenumbering{gobble}
+
+\titleformat{\section}
+    {\needspace{4\baselineskip}\bfseries\large}
+    {}
+    {0pt}
+    {}
+    [\vspace{1pt}\titlerule]
+
+\titlespacing{\section}{-1pt}{0.3cm}{0.2cm}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.10cm,
+        parsep=0.06cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=10pt
+    ]
+}{
+    \end{itemize}
+}
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{0.00001cm}{0.00001cm}
+}{
+    \end{adjustwidth}
+}
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 4.5cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn
+    \raggedleft
+    \secondColumn
+    \end{paracol}
+    \endonecolentry
+}
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}
+    \par\kern\topsep
+    \centering
+    \linespread{1.5}
+}{
+    \par\kern\topsep
+}
+
+\let\hrefWithoutArrow\href
+
+\begin{document}
+
+    \newcommand{\AND}{
+        \unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{$|$}
+
+    \begin{header}
+        \fontsize{25pt}{25pt}\selectfont Rassul Zeinulla
+
+        \vspace{2pt}
+
+        \fontsize{15pt}{15pt}\selectfont Automation, Robotics \& AI Engineer
+
+        \vspace{5pt}
+
+        \normalsize
+        \mbox{\hrefWithoutArrow{mailto:rasulzeynullaer@mail.ru}{\faEnvelope\ rasulzeynullaer@mail.ru}}%
+        \kern 5pt%
+        \AND%
+        \kern 5pt%
+        \mbox{\hrefWithoutArrow{tel:+77056054783}{\faPhone\ +7 (705) 605 47 83}}%
+        \kern 5pt%
+        \AND%
+        \kern 5pt%
+        \mbox{\hrefWithoutArrow{https://rassulz.github.io/}{\faBriefcase\ Portfolio}}%
+        \kern 5pt%
+        \AND%
+        \kern 5pt%
+        \mbox{\hrefWithoutArrow{https://www.linkedin.com/in/rassul-zeynulla/}{\faLinkedin\ Rassul Zeinulla}}%
+        \kern 5pt%
+        \AND%
+        \kern 5pt%
+        \mbox{\hrefWithoutArrow{https://github.com/rassulz}{\faGithub\ rassulz}}%
+    \end{header}
+
+    \vspace{5pt - 0.3cm}
+
+    \section{Technical Skills}
+
+        \begin{onecolentry}
+            \textbf{Programming:} C++, Python, MATLAB
+        \end{onecolentry}
+        \vspace{0.12cm}
+
+        \begin{onecolentry}
+            \textbf{AI \& Computer Vision:} Machine Learning, PyTorch, CLIP, YOLOv8, Transformers, RAG
+        \end{onecolentry}
+        \vspace{0.12cm}
+
+        \begin{onecolentry}
+            \textbf{Robotics:} ROS 1 Noetic, ROS 2 Humble, RViz2, MoveIt 2, NVIDIA Isaac Sim
+        \end{onecolentry}
+        \vspace{0.12cm}
+
+        \begin{onecolentry}
+            \textbf{Automation \& Control:} PLC programming (IEC 61131-3: Ladder Logic, FBD, Structured Text), Siemens TIA Portal, Schneider Control Expert, Simulink, OPC UA, HMI/SCADA
+        \end{onecolentry}
+        \vspace{0.12cm}
+
+        \begin{onecolentry}
+            \textbf{Hardware:} Raspberry Pi 4/5, ESP32, NVIDIA Jetson, Intel RealSense D435i, Modicon M340/M241 PLCs, Siemens S7-1200/S7-300 PLCs, KUKA KRC4 compact, Kawasaki Astorino
+        \end{onecolentry}
+        \vspace{0.12cm}
+
+        \begin{onecolentry}
+            \textbf{Software \& Tools:} Git, GitHub, Linux, FastAPI, React, Autodesk Fusion 360, Honeywell UniSim
+        \end{onecolentry}
+
+    \section{Experience}
+
+        \begin{twocolentry}{Mar 2026 -- Apr 2026}
+            \textbf{Robotics Intern (Short-Term)}, Arcobo, Almaty, Kazakhstan
+        \end{twocolentry}
+        \vspace{0.10cm}
+
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Programmed and operated a Kawasaki Astorino industrial robot for trajectory-following and pick-and-place tasks.
+                \item Used SimBox hardware-in-the-loop (HIL) simulation to test and validate robot workflows before deployment.
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.2cm}
+
+        \begin{twocolentry}{Jan 2025 -- Jan 2026}
+            \textbf{Robotics Laboratory Assistant}, Kazakh-British Technical University
+        \end{twocolentry}
+        \vspace{0.10cm}
+
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Co-authored an NVIDIA Isaac Sim laboratory manual for student practical sessions.
+                \item Designed and implemented a PID-based self-balancing control system for a BLDC motor.
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.2cm}
+
+        \begin{twocolentry}{Jun 2025 -- Aug 2025}
+            \textbf{Automation and Robotics Engineer Intern}, Hyundai Trans Kazakhstan
+        \end{twocolentry}
+        \vspace{0.10cm}
+
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Programmed Siemens S7-300 PLC logic in TIA Portal for a conveyor training rig.
+                \item Developed LS Electric HMI screens in XP-Builder and integrated proximity sensors.
+            \end{highlights}
+        \end{onecolentry}
+
+    \section{Education \& Training}
+
+        \begin{twocolentry}{Jun 2026 -- Jul 2026}
+            \textbf{\hrefWithoutArrow{https://yessenovfoundation.org/en/about-us/programs/resources/yessenov-data-lab/yessenov-data-lab-2026/}{Yessenov Data Lab 2026}}, Shakhmardan Yessenov Foundation
+        \end{twocolentry}
+        \vspace{0.10cm}
+
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Selected as \textbf{one of 20 participants} for a four-week intensive in machine learning, data science, and practical AI engineering.
+                \item Completed hands-on work in applied machine learning, deep learning, transformers, CLIP, RAG, and multi-agent systems; ranked \textbf{1st} on the public leaderboard in a multimodal sarcasm-detection challenge (\textbf{F1: 0.878}). \hrefWithoutArrow{https://github.com/rassulz/yessenov_data_lab_program}{\textcolor{blue}{Coursework \& Labs \faExternalLink*}}
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.2cm}
+
+        \begin{twocolentry}{Sep 2022 -- May 2026}
+            \textbf{Kazakh-British Technical University}, BSc in Automation and Control
+        \end{twocolentry}
+        \vspace{0.10cm}
+
+        \begin{onecolentry}
+            \begin{highlights}
+                \item ABET-accredited degree program.
+                \item \textbf{Relevant Coursework:} Linear and Nonlinear Control, Autonomous Mobile Robots, Industrial Robotics, Machine Learning, Computer Vision.
+            \end{highlights}
+        \end{onecolentry}
+
+    \section{Selected Projects}
+
+        \begin{twocolentry}{}
+            \textbf{Multi-Robot Painting Control System with Real-Time Monitoring}
+        \end{twocolentry}
+        \vspace{0.10cm}
+
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Paper accepted for presentation at the 20th IEEE International Conference on Control \& Automation (\textbf{ICCA 2026}).
+                \item Implemented PLC-based low-level control and MATLAB-based high-level coordination and path planning, with OPC UA communication and Simulink real-time execution.
+                \item \textbf{Tools:} KUKA KR10 R1100-2, RoArm-M2-S, MATLAB, Simulink, Siemens S7-1500, WinCC.
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.2cm}
+
+        \begin{twocolentry}{
+            \hrefWithoutArrow{https://github.com/rassulz/image_extractor_agent}{\textcolor{blue}{GitHub \faExternalLink*}}
+        }
+            \textbf{Image Extractor Agent -- CLIP Semantic Image Search}
+        \end{twocolentry}
+        \vspace{0.10cm}
+
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Built a fully offline natural-language image retrieval system that indexed \textbf{3,000 Flickr8k images} using CLIP embeddings and cosine similarity.
+                \item Developed a FastAPI backend and React interface with metadata filtering, Markdown/JSON reports, and a PCA/K-Means semantic atlas.
+                \item \textbf{Tools:} Python, PyTorch, OpenCLIP, FastAPI, React, NumPy, scikit-learn.
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.2cm}
+
+        \begin{twocolentry}{}
+            \textbf{Industrial Safety in NVIDIA Isaac Sim}
+        \end{twocolentry}
+        \vspace{0.10cm}
+
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Simulated an industrial safety workflow by integrating Kawasaki robot motion with YOLO26 human detection over ROS 2.
+                \item \textbf{Tools:} NVIDIA Isaac Sim, Python, Computer Vision, ROS 2 Humble.
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.2cm}
+
+        \begin{twocolentry}{}
+            \textbf{ML-Based Mining Process Quality Prediction with PLC Integration}
+        \end{twocolentry}
+        \vspace{0.10cm}
+
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Built an ML model to predict product quality in a mining process and transmitted predictions to a Siemens S7-1200 PLC over OPC UA for HMI visualization.
+                \item \textbf{Tools:} MATLAB, Python, Machine Learning, Siemens S7-1200, HMI.
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.2cm}
+
+        \begin{twocolentry}{}
+            \textbf{Intelligent Human-Zone Tracking with Computer Vision}
+        \end{twocolentry}
+        \vspace{0.10cm}
+
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Built a real-time safety-monitoring system for hazardous industrial zones that detected people, verified safety-vest compliance, and tracked dwell time in restricted areas.
+                \item \textbf{Tools:} Python, Computer Vision, YOLOv8.
+            \end{highlights}
+        \end{onecolentry}
+
+    \section{Awards \& Leadership}
+
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textbf{ASTP Course Project:} Won 2nd place among 40+ teams from the fourth-year Automation and Control cohort.
+                \item \textbf{Robo-Football Hackathon:} Mentored students and served as a judge at ITFEST 2024 and ITFEST 2025.
+                \item \textbf{KBTU Robotics Outreach:} Presented student robotics projects and advised prospective students at Open Day Robotics and EDUFEST.
+            \end{highlights}
+        \end{onecolentry}
+
+\end{document}
