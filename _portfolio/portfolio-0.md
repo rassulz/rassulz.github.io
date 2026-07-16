@@ -1,6 +1,6 @@
 ---
 title: "Multirobot Control System for Automated Part Painting"
-excerpt: "A completed and laboratory-validated automated painting line coordinating two RoArm-M2-S spray arms, a KUKA KR10 robot, a conveyor, and Siemens S7-1500 control through MATLAB/Simulink. <br/> ![multirobot_painting_demo](https://img.youtube.com/vi/CDdXuiCqLzY/0.jpg)
+excerpt: "A completed and laboratory-validated automated painting line coordinating two RoArm-M2-S spray arms, a KUKA KR10 robot, a conveyor, and Siemens S7-1500 control through MATLAB/Simulink. <br/> ![Laboratory implementation of the multirobot painting system](https://raw.githubusercontent.com/rassulz/multirobot_painting_control_system/main/docs/images/Physical_System_Implementation.png)
 "
 collection: portfolio
 ---
@@ -28,6 +28,8 @@ Every stage transition is controlled by PLC interlocks, keeping the conveyor, pa
 - **Industrial control level — Siemens SIMATIC S7-1500:** Executes deterministic sequencing, safety interlocks, field-device I/O, drying control, and closed-loop PID speed control for the BLDC conveyor. A **WinCC SCADA/HMI** provides operating modes, alarms, trends, and live process visualization.
 - **Physical level:** Includes the KUKA robot, two RoArm manipulators, a BLDC conveyor, four inductive sensors, the drying fan, and the electromagnetic end-effector.
 
+![Three-level architecture of the multirobot painting control system](https://raw.githubusercontent.com/rassulz/multirobot_painting_control_system/main/docs/images/architecture_three_level.png)
+
 ### Key engineering work
 
 - **Three-robot coordination:** Integrated two 4-DOF RoArm painting manipulators with a 6-DOF KUKA industrial robot in one sensor-driven production cycle.
@@ -36,10 +38,6 @@ Every stage transition is controlled by PLC interlocks, keeping the conveyor, pa
 - **Dual-arm painting control:** Implemented MATLAB motion-control classes and a dual-arm application with jogging, workspace preview, path planning, synchronized execution, and telemetry.
 - **Conveyor regulation:** Implemented PLC-based PID speed control for the BLDC conveyor to maintain a constant production takt under changing loads.
 - **Safety and monitoring:** Added PLC-governed operating modes, emergency-stop handling, safety handshakes, device interlocks, HMI alarms, and real-time monitoring of robot and process states.
-
-### Validation and results
-
-The complete laboratory cell was built and validated end to end with the **KUKA**, **two RoArms**, **conveyor**, **S7-1500 PLC**, and **SCADA/HMI** operating as one system. The project’s economic analysis estimates approximately **44.8% lower labor cost**, a **6.08 million KZT annual economic effect**, and a **2.2-year payback period** for the proposed industrial implementation.
 
 ### Technology stack
 
