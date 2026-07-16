@@ -1,33 +1,56 @@
 ---
-title: "Development of multirobot painting control system with realtime monitoring"
-excerpt: "An automated multirobot control system line that coordinates industrial manipulators, conveyor motion, and process monitoring in real time to improve efficiency, coating quality, and operator safety. <br/> ![painting_control_system](https://raw.githubusercontent.com/rassulz/rassulz.github.io/customize/images/diploma_picture_laboratory.jpg)
+title: "Multirobot Control System for Automated Part Painting"
+excerpt: "A completed and laboratory-validated automated painting line coordinating two RoArm-M2-S spray arms, a KUKA KR10 robot, a conveyor, and Siemens S7-1500 control through MATLAB/Simulink. <br/> ![multirobot_painting_demo](https://img.youtube.com/vi/CDdXuiCqLzY/0.jpg)
 "
 collection: portfolio
 ---
-Accepted for publishing in The 20th IEEE International Conference on Control & Automation (IEEE ICCA 2026)
 
-This **ongoing** project focuses on the development of a **multirobot painting control system with real-time monitoring** for automated industrial production. **The goal of the system** is to **increase process efficiency**, **reliable system**, and **remove human operators from hazardous working environments** by using coordinated robotic manipulators and intelligent control logic.
+This completed **2026 KBTU graduation project**, developed by a four-person student team, is a distributed multirobot control system with real-time monitoring for an automated industrial painting line. It coordinates **two collaborative painting manipulators**, an **industrial pick-and-place robot**, and a **conveyor** within one production cycle. The laboratory implementation was modeled on an automotive painting line at **Hyundai Trans Kazakhstan** and designed for future industrial scale-up.
 
+Research based on this project was accepted for **The 20th IEEE International Conference on Control & Automation (IEEE ICCA 2026)**.
 
-The system integrates a ** collaborative RoArm M2s manipulators** and and **industrial KUKA KR10 R1100-2 manipulator**, all low level commands made by PLC SIMATIC s7-1500,  and high-level coordination and operation is made by MATLAB/SYMULINK. The whole process consistes of 3 main stages such as **painting process**, **drying process** and **pick and place process**.   
+![Laboratory implementation of the multirobot painting system](https://raw.githubusercontent.com/rassulz/multirobot_painting_control_system/main/docs/images/Physical_System_Implementation.png)
 
+### Automated process
 
+The system automates the full part-finishing cycle:
 
-**Highlights:** <br/>
-- **MATLAB/SYMULINK:** Path plannig, coordination and real time monitoring of robot, such as torque, current, velocity and voltage <br/>
-- **PLC SIMATIC S7-1500S:** low level coordination, via OPC UA, SCADA system integraion, and hmi visualization <br/>
-- **Mathematical model** conveyor belt mathematical model, stability and different regulators integration such as LQR and PID<br/>
+1. The conveyor transports and positions the workpiece using inductive proximity sensors.
+2. Two **Waveshare RoArm-M2-S** manipulators paint the workpiece simultaneously.
+3. The conveyor transfers the painted part through the drying station.
+4. A **KUKA KR10 R1100-2** robot unloads the finished part with an electromagnetic gripper.
 
-<a href="https://github.com/rassulz/multirobot_painting_control_system" target="_blank" rel="noopener noreferrer">
-Project repository (GitHub)
-</a>
+Every stage transition is controlled by PLC interlocks, keeping the conveyor, painting arms, drying system, and KUKA robot synchronized.
 
-### Program realization:
+### Control architecture
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7L7fTCguy7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+- **Supervisory level — MATLAB and Simulink:** Performs high-level coordination, trajectory generation, robot dispatch, kinematics, and real-time telemetry. The Simulink supervisor reads workpiece-position sensors through OPC UA and launches the required painting or pick-and-place process.
+- **Industrial control level — Siemens SIMATIC S7-1500:** Executes deterministic sequencing, safety interlocks, field-device I/O, drying control, and closed-loop PID speed control for the BLDC conveyor. A **WinCC SCADA/HMI** provides operating modes, alarms, trends, and live process visualization.
+- **Physical level:** Includes the KUKA robot, two RoArm manipulators, a BLDC conveyor, four inductive sensors, the drying fan, and the electromagnetic end-effector.
 
+### Key engineering work
 
+- **Three-robot coordination:** Integrated two 4-DOF RoArm painting manipulators with a 6-DOF KUKA industrial robot in one sensor-driven production cycle.
+- **Multi-protocol communication:** Used **PROFINET** for field devices, **OPC UA** for PLC–MATLAB supervision, **TCP/IP with KukaVarProxy** for KUKA control, and **HTTP/JSON over Wi-Fi** for the RoArm manipulators.
+- **KUKA pick-and-place control:** Developed a MATLAB interface with pose editing, 3D trajectory preview, live joint telemetry, execution controls, and smooth quintic trajectories with joint-limit and singularity safeguards.
+- **Dual-arm painting control:** Implemented MATLAB motion-control classes and a dual-arm application with jogging, workspace preview, path planning, synchronized execution, and telemetry.
+- **Conveyor regulation:** Implemented PLC-based PID speed control for the BLDC conveyor to maintain a constant production takt under changing loads.
+- **Safety and monitoring:** Added PLC-governed operating modes, emergency-stop handling, safety handshakes, device interlocks, HMI alarms, and real-time monitoring of robot and process states.
 
-<br/><br/>
+### Validation and results
 
-This project universle system, which can be implemetant to any INDUSTRY 5.O, and right now, working on integration of reinforcement learning, in order to make system more accurate and data-driven system.
+The complete laboratory cell was built and validated end to end with the **KUKA**, **two RoArms**, **conveyor**, **S7-1500 PLC**, and **SCADA/HMI** operating as one system. The project’s economic analysis estimates approximately **44.8% lower labor cost**, a **6.08 million KZT annual economic effect**, and a **2.2-year payback period** for the proposed industrial implementation.
+
+### Technology stack
+
+**MATLAB R2025b · Simulink · Siemens TIA Portal V19 · WinCC · SIMATIC S7-1500 · OPC UA · PROFINET · TCP/IP · HTTP/JSON · KUKA KRL · ESP32 · AutoCAD · Fusion 360**
+
+### Project resources
+
+- <a href="https://github.com/rassulz/multirobot_painting_control_system" target="_blank" rel="noopener noreferrer">Source code and technical documentation (GitHub)</a>
+- <a href="https://github.com/rassulz/multirobot_painting_control_system/blob/main/docs/Diploma_Final.pdf" target="_blank" rel="noopener noreferrer">Full graduation thesis (PDF)</a>
+- <a href="https://github.com/rassulz/multirobot_painting_control_system/blob/main/docs/Diploma_presentation.pdf" target="_blank" rel="noopener noreferrer">Project presentation (PDF)</a>
+
+### System demonstration
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CDdXuiCqLzY" title="Multirobot painting control system demonstration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
