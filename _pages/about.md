@@ -7,14 +7,16 @@ redirect_from:
   - /about.html
 ---
 
-🎓 I am a fourth-year student at **Kazakh-British Technical University (KBTU)**, specializing in **Automation and Robotics**.
+🤖 I am interested in **robotics software** and in building intelligent systems that enable robots to perceive, learn, and act autonomously.
 
-🤖 My academic interests focus on **industrial manipulators** and **autonomous mobile robots**, particularly their applications in automation and intelligent systems, with a strong emphasis on **artificial intelligence** and **reinforcement learning**.
+🔬 My main research interests are:
 
-🚀 Currently, I am involved in ongoing research:  
-**“Development of Multirobot Painting Control System with Real-Time Monitoring.”**
+* **Reinforcement learning** for robot control
+* **Vision-Language-Action (VLA) models**
+* **Computer vision** for robotic perception
+* **Robotic manipulators** and **legged robots**
 
-🟩 Additionally, I am expanding my expertise in **reinforcement learning using NVIDIA frameworks** and actively working on the development of **reinforcement learning for manipulators**.
+🚀 I am especially interested in combining learning-based methods with real robotic systems to develop more adaptive and autonomous robots.
 
 <br/>
 
