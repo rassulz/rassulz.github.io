@@ -18,19 +18,6 @@ redirect_from:
 
 🚀 I am especially interested in combining learning-based methods with real robotic systems to develop more adaptive and autonomous robots.
 
-<br/>
-
-# 🎓 Education
-
-### **Nazarbayev University** — Master’s in Robotics
-
-* **August 2026 – July 2028**
-
-### **Kazakh-British Technical University** — B.S. in Automation and Control
-
-* **September 2022 – May 2026**
-
-<br/>
 
 # 🏆 Selected Experience
 
@@ -73,11 +60,6 @@ redirect_from:
 * Built a local **Russian-to-English translator** using **MarianMT** and **Streamlit**.
 
 ---
-
-### 📜 Research Paper Collaborator
-**Acceptance on conference** The 20th IEEE International Conference on Control & Automation (IEEE ICCA 2026) on research project **Development of multirobot painting control system with realtime monitoring**. Highlights integration of  low-level coordination PLC and high-level MATLAB/SYMULINK.
-
-<br/>
 
 # 🎉 Activities and Achievements
 

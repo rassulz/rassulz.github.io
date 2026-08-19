@@ -19,18 +19,15 @@ main:
     
   - title: "Portfolio"
     url: /portfolio/
-
-  - title: "Research & Recommendations"
-    url: /research/
-
-  - title: "ORCID"
-    url: https://orcid.org/0009-0008-5864-266X
         
   #- title: "Blog Posts"
   #  url: /year-archive/
     
   - title: "CV"
     url: /files/AI_CV_made.pdf
+
+  - title: "Publications & Recommendations"
+    url: /research/
     
   # - title: "CV"
   #   url: /cv-json/
