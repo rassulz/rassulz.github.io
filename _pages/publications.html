@@ -1,36 +1,46 @@
 ---
-layout: archive
-title: "Publications"
-permalink: /publications/
+layout: single
+title: "Research & Recommendations"
+permalink: /research/
 author_profile: true
+redirect_from:
+  - /publications/
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p>This page brings together my conference research and professional recommendation letters. My complete research profile is also available on <a href="https://orcid.org/0009-0008-5864-266X" target="_blank" rel="noopener noreferrer">ORCID (0009-0008-5864-266X)</a>.</p>
 
-{% include base_path %}
+<h2>Conference Publication</h2>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<h3>Distributed Control Framework of Multirobot System Using Automation and Control Applications</h3>
+
+<p><strong>Rassul Zeinulla</strong>, Almat Abdimalik, Ayan Rakhmetkali, Collins Masimba, and Timur Samigulin.</p>
+
+<p>Accepted conference paper, <strong>2026 IEEE 20th International Conference on Control and Automation (ICCA)</strong>, Almaty, Kazakhstan, June 2026.</p>
+
+<p>The paper presents a distributed control architecture for a laboratory-validated multirobot painting system. It combines Siemens SIMATIC S7-1500 PLC sequencing and safety interlocks with MATLAB/Simulink supervisory control, OPC UA communication, two RoArm-M2-S manipulators, and a KUKA KR10 industrial robot.</p>
+
+<a href="https://hkclr.hk/conference/ICCA%202026%20Final%20Program%20Book%20Final.pdf" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Official conference program</a>
+<a href="/portfolio/portfolio-0/" class="btn" target="_blank" rel="noopener noreferrer">Related project</a>
+
+<h2>Recommendation Letters</h2>
+
+<h3>Academic Recommendation — Kazakh-British Technical University</h3>
+
+<p><strong>Aiyim Svambayeva</strong><br />
+Senior Lecturer and Siemens Laboratory Coordinator, School of Information Technologies and Engineering</p>
+
+<p>This letter highlights my performance in automation and measurement courses, practical work in the Siemens Laboratory, initiative, engineering depth, and projects involving SIMATIC PLCs, OPC UA, MATLAB, Simulink, robotics, and smart systems.</p>
+
+<a href="/files/recommendation-letter-kbtu.pdf" class="btn btn--primary" target="_blank" rel="noopener noreferrer">View signed letter (PDF)</a>
+
+<h3>Professional Recommendation — Hyundai Trans Kazakhstan</h3>
+
+<p><strong>Mardan Kurmangali Salauatuly</strong><br />
+Senior Instrumentation &amp; Automation Engineer</p>
+
+<p>This letter covers my industrial internship, including electrical assembly, production troubleshooting, AGV charging-station diagnostics, and the implementation of a conveyor automation stand using a SIMATIC S7-300 PLC, proximity sensors, an encoder, and an LS Electric HMI.</p>
+
+<a href="/files/recommendation-letter-hyundai.pdf" class="btn btn--primary" target="_blank" rel="noopener noreferrer">View signed letter (PDF)</a>
 
 
 

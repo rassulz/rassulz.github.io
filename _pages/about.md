@@ -20,6 +20,18 @@ redirect_from:
 
 <br/>
 
+# 🎓 Education
+
+### **Nazarbayev University** — Master’s in Robotics
+
+* **August 2026 – July 2028**
+
+### **Kazakh-British Technical University** — B.S. in Automation and Control
+
+* **September 2022 – May 2026**
+
+<br/>
+
 # 🏆 Selected Experience
 
 ### 🤖 Robotics Intern (short term) - **Arcobo**, Almaty, Kazakhstan
@@ -93,3 +105,6 @@ Open certificate
 🟢Certificate of recognition **L'Oreal Brandstorm** related to **Industry 4.0** and **smart technologies** in the manufacture.  <a href="https://rassulz.github.io/files/Rassul_Zeinulla_loreal.pdf"
 target="_blank" rel="noopener noreferrer">
 Open certificate
+
+🌿 Contributed to the setup and operation of the **Arcobo** company’s stand at **Kazakhstan Machinery Fair 2026 (Astana, April 1–3)**. Demonstrated the Astorino Kawasaki platform through motion replication, simple trajectory tasks, and pick-and-place operations, along with SimBox HIL simulation for safe programming and testing.
+
